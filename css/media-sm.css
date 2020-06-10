@@ -1,0 +1,89 @@
+/* small devices (landscape phones, 576px and up*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* banner */
+    .banner{
+        padding: 60px 0;
+    }
+    .banner-content h1{
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    .banner-content p{
+        padding-bottom: 25px;
+    }
+    .form-row-custom{
+	    padding: 0 10px;
+    }
+    .form-custom{
+        padding: 0 5px 10px;
+    }
+    .form-custom:last-of-type{
+        padding: 0 5px 0;
+    }
+    .form-control-custom{
+        margin: 0 !important;
+    }
+
+    /* features */
+    .features{
+        padding: 60px 0;
+    }
+    .features-content img{
+        width: 13%;
+    }
+    .features-content h4{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .features-content p{
+        padding-bottom: 30px;
+        font-size: 14px;
+    }
+    .features-content-last-p{
+        padding-bottom: 0 !important;
+        font-size: 14px;
+    }
+    /* explore */
+    .explore{
+        padding: 60px 0;
+    }
+    .explore-content h2{
+        font-size: 29px;
+        padding-bottom: 16px;
+    }
+    .explore-content p{
+        font-size: 14px;
+    }
+    .learn-more-btn{
+        width: 180px;
+	    height: 45px;
+        font-size: 17px;
+    }
+
+    /* discover */
+    .discover{
+        padding: 35px 0;
+    }
+    .discover-content h3{
+        font-size: 20px;
+    }
+    .discover-btn{
+        width: 150px;
+        height: 45px;
+        margin-top: 12px;
+    }
+
+    /* slider */
+    .slider{
+	padding: 50px 0;
+    }
+
+    /* footer */
+    .footer{
+        padding: 20px 0;
+    }
+    .footer-content p{
+        font-size: 12px;
+    }
+}
